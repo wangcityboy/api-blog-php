@@ -3,20 +3,13 @@ class DbServer{
 	
 	static private $_instance;
 	static private $_connectSource;
-// 	private $_dbConfig = array(
-// 		'host' => 'localhost',
-// 		'user' => 'root',
-// 		'password' => 'root',
-// 		'database' => 'testguest',
-// 	);
-	
-	
 	private $_dbConfig = array(
-		'host' => 'hdm14969059.my3w.com',
-		'user' => 'hdm14969059',
-		'password' => 'whf324512',
-		'database' => 'hdm14969059_db',
+		'host' => 'localhost',
+		'user' => 'root',
+		'password' => 'root',
+		'database' => 'testguest',
 	);
+	
 	
 	
 	private function _construct(){
