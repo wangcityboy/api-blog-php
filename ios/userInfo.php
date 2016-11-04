@@ -15,12 +15,17 @@ class userInfo{
 				return Response::show(403,"数据库连接失败");
 			}
 
-			$queryuser = mysql_query($sql,$connect);
+			$result = mysql_query($sql,$connect);
+	
 
-			$rowuser = mysql_fetch_array($queryuser);		
+			$userinfos = array();
 			
-			if($rowuser){
-				return Response::show(200,"用户信息获取成功",$rowuser);
+			while ($userinfo = mysql_fetch_assoc($result)){
+				$userinfos[] = $userinfo;
+			}
+			
+			if($userinfos){
+				return Response::show(200,"用户信息获取成功",$userinfos);
 			}else{
 				return Response::show(400,"用户信息获取失败");
 			}			

@@ -3,7 +3,7 @@ require_once("../include/Response.php");
 require_once("../include/DbServer.php");
 
 $page = isset($_GET['page']) ? $_GET['page'] : 1;
-$pageSize = isset($_GET['pageSize']) ? $_GET['pageSize'] : 6;
+$pageSize = isset($_GET['pageSize']) ? $_GET['pageSize'] : 20;
 
 if (!is_numeric($page) || !is_numeric($pageSize)){
 	 return Response::show(401,'数据不合法');

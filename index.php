@@ -48,12 +48,17 @@ session_start();
         ?>
         
         <h1>欢迎使用云飞凌风个人博客接口管理系统</h1>
-        <h3>#:已开发完成的接口地址,返回Json格式数据</h3>    
+        <h2>#:已开发完成的接口地址,返回Json格式数据</h2>    
         <p>获取所有日志列表：<a href="http://wanghaifeng.net/api/api.php?act=article">http://wanghaifeng.net/api/api.php?act=article</a></p>
         <p>获取所有用户列表：<a href="http://wanghaifeng.net/api/api.php?act=user">http://wanghaifeng.net/api/api.php?act=user</a></p>
         <p>获取所有相册列表：<a href="http://wanghaifeng.net/api/api.php?act=dir">http://wanghaifeng.net/api/api.php?act=dir</a></p>
         <p>获取相册下的相片列表：<a href="http://wanghaifeng.net/api/api.php?act=photo&sid=36">http://wanghaifeng.net/api/api.php?act=photo&sid=36</a></p>
-        <p>获取我开发的项目列表：<a href="http://wanghaifeng.net/api/ios/project.php">http://wanghaifeng.net/api/ios/project.php</a></p>
-        <p>获取日志分类列表：<a href="http://wanghaifeng.net/api/android/classify.php">http://wanghaifeng.net/api/android/classify.php</a></p>
+        
+        <h2>#:以下为iOS手机端接口地址,返回Json格式数据</h2> 
+        <p>获取项目列表：<a href="http://wanghaifeng.net/api/ios/project.php">http://wanghaifeng.net/api/ios/project.php</a></p>
+ 		<p>获取相册列表：<a href="http://wanghaifeng.net/api/ios/photos.php">http://wanghaifeng.net/api/ios/photos.php</a></p>
+ 		<p>获取广告列表：<a href="http://wanghaifeng.net/api/ios/advertise.php">http://wanghaifeng.net/api/ios/advertise.php</a></p>
+ 		<p>获取背景图片：<a href="http://wanghaifeng.net/api/ios/background.php">http://wanghaifeng.net/api/ios/background.php</a></p>
+ 		<p>获取用户资料：<a href="http://wanghaifeng.net/api/ios/userInfo.php?username=wanghaifeng">http://wanghaifeng.net/api/ios/userInfo.php?username=wanghaifeng</a></p>
         
 </html>

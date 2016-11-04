@@ -7,7 +7,7 @@ require_once(SITE_PATH."/model/PhotoDir.php");
 require_once(SITE_PATH."/model/Photo.php");
 class api
 {
-	const PUBLIC_KEY="http://www.wanghaifeng.net";
+	const PUBLIC_KEY="http://www.ucai.cn";
     	function check()
         {
 			$params = array();	
