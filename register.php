@@ -12,7 +12,8 @@ div{
 
 <body>
 <?php
-require_once("/api-blog-php/global.php");
+require_once("api-blog-php/global.php");
+echo SITE_PATH;
 require_once(SITE_PATH."/include/Common.php");
 require_once(SITE_PATH."/model/User.php");
 $data = $_POST;
