@@ -11,16 +11,23 @@ require_once("DbConn.php");
 
 
 //数据库连接
+<<<<<<< HEAD
 define('DB_HOST','127.0.0.1');
 define('DB_USER','root');
 define('DB_PWD','KeYpZrZx');
 define('DB_NAME','guest');
+=======
+// define('DB_HOST','hdm14969059.my3w.com');
+// define('DB_USER','hdm14969059');
+// define('DB_PWD','whf324512');
+// define('DB_NAME','hdm14969059_db');
+>>>>>>> 50e110bbbebf451a13d2370d696fadea48c5625c
 
 
-// define('DB_HOST','localhost');
-// define('DB_USER','root');
-// define('DB_PWD','root');
-// define('DB_NAME','testguest');
+define('DB_HOST','localhost');
+define('DB_USER','root');
+define('DB_PWD','KeYpZrZx');
+define('DB_NAME','guest');
 
 
 //初始化数据库
