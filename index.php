@@ -10,6 +10,7 @@ session_start();
     <body>
     <?php
     	require_once("global.php");
+    	echo SITE_PATH;
             error_reporting(E_ALL);
             ini_set("display_errors", 1);
             $name = "";

@@ -17,7 +17,7 @@ div{
 
 
 <?php
-require_once("global.php");
+require_once("./global.php");
 require_once(SITE_PATH."/include/Common.php");
 require_once(SITE_PATH."/model/User.php");
 
