@@ -11,10 +11,10 @@ require_once("DbConn.php");
 
 
 //数据库连接
-define('DB_HOST','hdm14969059.my3w.com');
-define('DB_USER','hdm14969059');
-define('DB_PWD','whf324512');
-define('DB_NAME','hdm14969059_db');
+define('DB_HOST','127.0.0.1');
+define('DB_USER','root');
+define('DB_PWD','KeYpZrZx');
+define('DB_NAME','guest');
 
 
 // define('DB_HOST','localhost');
