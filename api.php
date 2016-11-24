@@ -1,5 +1,5 @@
 <?php
-require_once(SITE_PATH."/global.php");
+require_once("/api-blog-php/global.php");
 require_once(SITE_PATH."/include/Common.php");
 require_once(SITE_PATH."/model/User.php");
 require_once(SITE_PATH."/model/Article.php");
